@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.unittest.abhi.unittest1.business.BusinessImplStubTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.unittest.abhi.unittest1.business.BusinessImplStubTest
+calculateSumUsingDataServiceEmpty  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <6> but was: <0>
+	at com.unittest.abhi.unittest1.business.BusinessImplStubTest.calculateSumUsingDataServiceEmpty(BusinessImplStubTest.java:35)
+
+calculateSumUsingDataServiceOneValueEmpty  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <6> but was: <3>
+	at com.unittest.abhi.unittest1.business.BusinessImplStubTest.calculateSumUsingDataServiceOneValueEmpty(BusinessImplStubTest.java:45)
+

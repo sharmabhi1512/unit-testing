@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.unittest.abhi.unittest1.spike.JsonAssertTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.unittest.abhi.unittest1.spike.JsonAssertTest
+jsonAssertWithoutEscapeChar  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{id:1,name:Abhi}> but was: <{"id":1,"name":"Abhi"}>
+	at com.unittest.abhi.unittest1.spike.JsonAssertTest.jsonAssertWithoutEscapeChar(JsonAssertTest.java:30)
+
+jsonAssertWithoutEscapeCharNegative  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{"id":1,"name":"Abhi "}> but was: <{"id":1,"name":"Abhi"}>
+	at com.unittest.abhi.unittest1.spike.JsonAssertTest.jsonAssertWithoutEscapeCharNegative(JsonAssertTest.java:36)
+
